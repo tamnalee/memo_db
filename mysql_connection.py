@@ -16,10 +16,10 @@ class RecipeListResource(Resource):
     def post(self):
         # api 실행코드를 작성
 
-        # 클라이언트에서 body부분에 작성한 json을 받아오는 코드
+        # 클라이언트에서 body부분에 작성한 json을 받아오는 코드 
         data = request.get_json()
 
-        try:
+        try:s
             pass
 
         except mysql.connector.Error as e:
